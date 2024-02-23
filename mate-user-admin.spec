@@ -9,6 +9,7 @@ Source0:	https://github.com/zhuyaliang/user-admin/archive/v%{version}/%{name}-%{
 Patch0:		https://github.com/zhuyaliang/user-admin/commit/094986c6ac77cad0f4c34048cb51b3d345ca7348.patch
 
 BuildRequires:	desktop-file-utils
+BuildRequires:	gettext
 BuildRequires:	meson
 BuildRequires:	pkgconfig(accountsservice)
 BuildRequires:	pkgconfig(group-service)
